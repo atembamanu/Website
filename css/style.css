@@ -1,0 +1,166 @@
+/* Style the sidebar - fixed full height */
+.sidebar {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 0px;
+  }
+  
+  /* Style sidebar links */
+  .sidebar a{
+    padding: 40px 10px 10px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: gainsboro;
+    display: block;
+  }
+  
+  /* Style links on mouse-over */
+  .sidebar a:hover {
+    color: lightblue
+  }
+  
+  /* Style the main content */
+  .main {
+    margin-top: 30px;
+    margin-left: 160px;
+    margin-right: 50px;
+    padding: 0px 10px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+
+  footer{
+    margin-left: 350px;
+    margin-right: 250px;
+    color: #000000;
+    font-family: monospace;
+    font-size: 15px;
+    position: relative;
+    z-index: 1;
+
+  }
+  .main h2{
+    font-family: monospace;
+    font-size: 40px
+  }
+  .main h4{
+    color: #0c88d6;
+    font-size: 20px;
+    font-family: Sans comic ms;
+  }
+  .main hr{
+    size: 60;
+  }
+  .main p{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+  .main .container{
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .main .container .box{
+    width: 25%;
+    float: left;
+  }
+  .main .container .box .chart{
+    position: relative;
+    width: 110px;
+    height: 110px;
+    width: 0 auto;
+    text-align: center;
+    font-size: 30px;
+    line-height: 110px;
+  }
+  .main .container .box canvas{
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .main .bests{
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .main .bests .lowerbox{
+
+    width: 25%;
+    float: left;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif
+  }
+.main #who{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 21px;
+  font: bolder;
+  font-weight: bolder;
+}
+.main .whoiam #desc{
+  font-size: 16px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.skillbar {
+  margin-left: 60px;
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+  width:90%;
+	background:#eee;
+	height:15px;
+	border-radius:3px;
+	transition:0.1s  linear;
+	transition-property:width, background-color;
+}
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	width:110px;
+	font-weight:bold;
+	font-size:13px;
+	color:#ffffff;
+	background:#6adcfa;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 15px;
+	height:15px;
+	line-height:15px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+.skillbar-bar {
+	height:15px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+}
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:11px;
+	height:15px;
+	line-height:15px;
+	color:#ffffff;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+#prof{
+  margin-left: 60px;
+}
+  
